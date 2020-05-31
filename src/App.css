@@ -65,3 +65,10 @@
     font-family: Courier;
 
 }
+
+.keydown{
+  color: #555;
+  transition: all .3s;
+  font-size: 1.44rem;
+  background-color: #ececec;
+}
