@@ -72,3 +72,21 @@
   font-size: 1.44rem;
   background-color: #ececec;
 }
+
+@media screen and (min-width:1400px){
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #584d49;
+    background-image: linear-gradient(to right, #000201 40%, #574d49 80%);
+  }
+  #root {   
+    height: 60rem;
+    width: 60rem;    
+    background-color: #777;
+    box-shadow: 0 0 77px 40px #000;
+
+  }
+}
